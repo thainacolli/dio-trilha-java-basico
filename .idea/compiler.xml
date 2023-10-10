@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ContaBanco" />
+        <module name="dio-trilha-java-basico" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dio-trilha-java-basico" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
